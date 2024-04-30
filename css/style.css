@@ -57,7 +57,22 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+.entéte{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.header1{
+    order: 1;
+    flex: 1;
+}
 
+.header2{
+    order: 2;
+}
+.header3{
+    order: 3;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
