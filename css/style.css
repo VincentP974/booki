@@ -62,6 +62,9 @@ a {
     flex-direction: row;
     gap: 20px;
 }
+.entéte :hover{
+    color: #0065FC;
+}
 .header1{
     order: 1;
     flex: 1;
