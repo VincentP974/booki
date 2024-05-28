@@ -93,6 +93,7 @@ nav a {
 
 .sub-nav {
     display: flex;
+    font-weight: 500;
 }
 
 .sub-nav a {
@@ -503,6 +504,7 @@ footer {
 
     .populaires-cards{
         flex-direction: column;
+        width: 320%
     }
 
     footer{
