@@ -88,21 +88,13 @@ nav a {
     display: flex;
     margin-right: auto;
     padding: 0 2rem; 
-    Width:61.09px;
     Height:19px;
-
-
 }
 
 .sub-nav {
     display: flex;
     font-weight: 500;
     font-size: larger;
-}
-
-.sub-nav a {
-    flex-basis: 50%;
-    
 }
 
 .headline {
@@ -184,7 +176,7 @@ i.fa-solid.fa-location-dot {
     align-items: center;
     justify-content: center;
     margin: 15px;
-    font-size: x-large;
+    font-size: larger;
 }
 
 .filter{
@@ -500,6 +492,7 @@ footer {
         display: inline;
         color: #D9D9D9;
         background-color: var(--main-color);
+        margin-left: -8px;
     }
 
     .populaires{
@@ -533,7 +526,13 @@ footer {
     }
 
     .filter-list{
-        gap: -1rem;
+        gap: 0rem;
+    }
+
+    .search-bar button{
+        border-radius: 1rem;
+        width: 49px;
+        height: 49px;
     }
 
     
