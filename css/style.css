@@ -157,19 +157,29 @@ i.fa-solid.fa-location-dot {
 
 .filter-list {
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    margin-top: 2rem;
     flex-wrap: wrap;
-    padding-top: 30px;
-    width: 147%;
+}
+
+.filter-title{
+    margin-right: 10px;
 }
 
 .filter-icons{
     display: flex;
-    flex-wrap: wrap;
     gap: 1rem;
-    justify-content: flex-start;
+    flex-wrap: wrap;
 }
+
+.filter-icons p{
+    font-weight: 600;
+    font-size: 119%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+  }
 
 .filter .fa-solid{
     display: flex;
@@ -184,7 +194,8 @@ i.fa-solid.fa-location-dot {
     border-radius: 2rem;
     display: flex;
     align-items: center;
-    width: fit-content;
+    height: 4rem;
+    
 }
 
 .filter:hover{
@@ -195,6 +206,7 @@ i.fa-solid.fa-location-dot {
     font-weight: bold;
     padding: 1rem;
 }
+
 
 
 
@@ -253,39 +265,39 @@ i.fa-solid.fa-location-dot {
     
 }
 
-.hebergements-cards div {
+/* .hebergements-cards div {
     flex-basis: 33%;
-}
+} */
 
 
 .hebergements-cards .card {
     display: flex;
     margin-top: 33px;
     flex-direction: column;
-    width: 235px;
+    width: 14.5rem;
     
     
 }
 
 .hebergements-cards img {
+    height: 7rem;
+    object-fit: cover;
+    max-width: 100%;
     width: 100%;
-    height: 136px;
+    max-height: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .hebergements-cards .card-content {
-    width: 67%;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
 }
 
-.hebergements-cards .card-txt{
+/* .hebergements-cards .card-txt{
     width: 175px;
-}
+} */
 
 .hebergements-cards .card-title {
     margin-top: 10px;
@@ -300,11 +312,11 @@ i.fa-solid.fa-location-dot {
     margin-bottom: 5px;
 }
 
-.hebergements a{ 
+/* .hebergements a{ 
     font-weight: bold;
     padding-left: 1rem;
     padding-top: 1rem;
-}
+} */
 
 
 
@@ -380,10 +392,11 @@ i.fa-solid.fa-location-dot {
    flex-basis: 22%;
    flex-wrap: wrap;
    width: 297px;
-   height: 448px;
+   /* height: 448px; */
    border-radius: 20px;
    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
    box-sizing: border-box;
+   margin-top: 1rem;
 }
 
 
@@ -393,6 +406,7 @@ i.fa-solid.fa-location-dot {
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
+    margin-bottom: 1rem;
 }
 
 .activite-cards div h3{
@@ -405,15 +419,29 @@ i.fa-solid.fa-location-dot {
 
 /* Footer */
 
-footer {
-    background-color: var(--main-bg-color);
-    width: 95%;
+.bloc-footer{
+    width: 100%;
+    background: #F2F2F2;
+    height: 300px;
     display: flex;
-    justify-content: space-around;
-    font-size: smaller;
-    padding: 1rem;
-    margin-left: 50px;
-}
+    padding-top: 40px;
+    margin-left: 0;
+  }
+  
+  .section-footer{
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  footer h4{
+    font-weight: 900;
+    font-size: 119%;
+    line-height: 50px;
+  }
+  footer a{
+    line-height: 30px;
+    color: rgb(59, 59, 59);
+  }
 
 
 
@@ -456,15 +484,24 @@ footer {
         font-size: 13px;
     }
 
-    .filter-list h2{
+    .filter-title{
         width: 100%;
     }
+
+    .bloc-footer{
+        width: 110%;
+      }
 
 }
 
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .main-container{
+        padding: 0 0px;
+        width: 120%;
+    }
+    
     #logo{
         justify-content: center;
         margin: auto;
@@ -506,14 +543,21 @@ footer {
     
     .hebergements-cards{
         flex-direction: column;
+        width: 100%;
     }
 
     .hebergements-cards .card{
-        width: 100%;
+        width: 20rem;
     }
 
     .activite-cards{
         flex-direction: column;
+        padding: 0;
+    }
+
+    .activite-cards div img{
+        height: 141px;
+
     }
 
     .populaires-cards{
@@ -522,11 +566,15 @@ footer {
     }
 
     .filter{
-        width: 32%;
+        width: 47%;
     }
 
     .filter-list{
         gap: 0rem;
+    }
+
+    .filter-icons{
+        width: 100%;
     }
 
     .search-bar button{
@@ -535,8 +583,8 @@ footer {
         height: 49px;
     }
 
-    
-    footer{
+    .bloc-footer{
         flex-direction: column;
     }
+
 }
