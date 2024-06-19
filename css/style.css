@@ -171,19 +171,20 @@ i.fa-solid.fa-location-dot {
     flex-wrap: wrap;
 }
 
+
 .filter-icons p{
     font-weight: 600;
     /* font-size: 119%; */
     display: flex;
     align-items: center;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 15px;
     width: 100%;
   }
 
 .filter .fa-solid{
     margin: 15px;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .filter{
@@ -191,7 +192,7 @@ i.fa-solid.fa-location-dot {
     border-radius: 2rem;
     display: flex;
     align-items: center;
-    height: 4rem;
+    height: 3rem;
     
 }
 
