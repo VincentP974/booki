@@ -173,7 +173,7 @@ i.fa-solid.fa-location-dot {
 
 .filter-icons p{
     font-weight: 600;
-    font-size: 119%;
+    /* font-size: 119%; */
     display: flex;
     align-items: center;
     margin-left: 10px;
@@ -257,15 +257,19 @@ i.fa-solid.fa-location-dot {
     display: flex;
     margin-top: 33px;
     flex-direction: column;
-    width: 14.5rem;   
+    /* width: 14rem;    */
+}
+
+.hebergements-cards div{
+    flex-basis: 32%;
 }
 
 .hebergements-cards img {
-    height: 9rem;
+    height: 7rem;
     object-fit: cover;
-    max-width: 100%;
+    /* max-width: 100%;
     width: 100%;
-    max-height: 100%;
+    max-height: 100%; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -392,34 +396,15 @@ i.fa-solid.fa-location-dot {
 
 /* Footer */
 
-.bloc-footer{
-    width: 100%;
-    background: #F2F2F2;
-    height: 300px;
-    display: flex;
-    padding-top: 40px;
-    margin-left: 0;
-  }
-  
-  .section-footer{
-    flex: 1;
-    margin-left: 40px;
-  }
-  
-  footer h4{
-    font-weight: 900;
-    font-size: 119%;
-    line-height: 50px;
-  }
-  footer a{
-    line-height: 30px;
-    color: rgb(59, 59, 59);
-  }
-
   footer{
     display: flex;
-  }
+    background-color: var(--main-bg-color);
+    width: 100%;
+    justify-content: space-evenly;
+    font-size:smaller;
+    padding: 1rem;
 
+  }
 
 
 
@@ -428,6 +413,16 @@ i.fa-solid.fa-location-dot {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    .main-container{
+        padding: 0 0px;
+    }
+
+    main{
+        padding: 0 0rem;
+    }
+
+
     .hebergements-and-populaires {
         flex-direction: column;
         display: flex;
@@ -473,20 +468,16 @@ i.fa-solid.fa-location-dot {
 
     .activite-cards div{
         width: 10.5rem;
+        height: 10rem;
+        padding-bottom: 14rem;
     }
 
 
     .activite-cards div img {
         width: 10.5rem;
+        height: 10rem;
     }
 
-    .bloc-footer{
-        width: 100%;
-      }
-
-      /* .activite-cards div img {
-        width: 100%;
-    } */
 
 }
 
@@ -495,7 +486,6 @@ i.fa-solid.fa-location-dot {
 @media (max-width: 767.98px) {
     .main-container{
         padding: 0 0px;
-        width: 120%;
     }
     
     #logo{
@@ -515,6 +505,10 @@ i.fa-solid.fa-location-dot {
     .sub-nav a:hover{
         border-top: none;
         border-bottom:1px solid var(--main-color);
+    }
+
+    .headline h1{
+        font-size: 24px;
     }
 
     .search-bar .search-text{
@@ -548,6 +542,10 @@ i.fa-solid.fa-location-dot {
         width: 100%;
     }
 
+    #activite-title{
+        padding-left: 55px;
+    }
+
     .activite-cards{
         flex-direction: column;
         padding: 0;
@@ -555,7 +553,12 @@ i.fa-solid.fa-location-dot {
 
     .activite-cards div{
         width: 15.5rem;
+        padding-bottom: 13rem;
 
+    }
+
+    .activite-cards div h3{
+        padding-left: 10px;
     }
 
     .activite-cards div img{
@@ -587,8 +590,12 @@ i.fa-solid.fa-location-dot {
         height: 49px;
     }
 
-    .bloc-footer{
+    footer{
         flex-direction: column;
+    }
+
+    footer div{
+        padding-bottom: 1rem;
     }
 
 }
