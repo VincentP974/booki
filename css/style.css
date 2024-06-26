@@ -544,7 +544,11 @@ i.fa-solid.fa-location-dot {
     }
 
     .hebergements-cards .card{
-        width: 100%;
+        height: 207px;
+    }
+
+    .hebergements-cards img{
+        height: 66%;
     }
 
     #activite-title{
@@ -556,9 +560,14 @@ i.fa-solid.fa-location-dot {
         padding: 0;
     }
 
+    .activite-cards a {
+        width: 95%;
+    }
+
     .activite-cards div{
-        width: 15.5rem;
+        width: 100%;
         padding-bottom: 13rem;
+        height: 250px;
 
     }
 
@@ -567,8 +576,8 @@ i.fa-solid.fa-location-dot {
     }
 
     .activite-cards div img{
-        /* height: 141px; */
-        width: 15.5rem;
+        height: 190px;
+        width: 100%;
     }
 
 
