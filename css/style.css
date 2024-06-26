@@ -259,6 +259,7 @@ i.fa-solid.fa-location-dot {
     margin-top: 33px;
     flex-direction: column;
     /* width: 14rem;    */
+    height: 13rem;
 }
 
 .hebergements-cards div{
@@ -268,9 +269,6 @@ i.fa-solid.fa-location-dot {
 .hebergements-cards img {
     height: 7rem;
     object-fit: cover;
-    /* max-width: 100%;
-    width: 100%;
-    max-height: 100%; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -400,11 +398,14 @@ i.fa-solid.fa-location-dot {
   footer{
     display: flex;
     background-color: var(--main-bg-color);
-    width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size:smaller;
     padding: 1rem;
+    flex-wrap: wrap;
+  }
 
+  footer div{
+    width: 30%;
   }
 
 
