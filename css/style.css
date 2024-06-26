@@ -159,6 +159,7 @@ i.fa-solid.fa-location-dot {
     display: flex;
     margin-top: 2rem;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .filter-title{
@@ -169,6 +170,7 @@ i.fa-solid.fa-location-dot {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 
@@ -259,11 +261,11 @@ i.fa-solid.fa-location-dot {
     margin-top: 33px;
     flex-direction: column;
     /* width: 14rem;    */
-    height: 13rem;
+    height: 80%;
 }
 
 .hebergements-cards div{
-    flex-basis: 32%;
+    flex-basis: 33%;
 }
 
 .hebergements-cards img {
@@ -271,6 +273,7 @@ i.fa-solid.fa-location-dot {
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: 100%;
 }
 
 .hebergements-cards .card-content {
