@@ -441,16 +441,12 @@ i.fa-solid.fa-location-dot {
 
     .populaires {
         width: 100%;
-        /* margin-top: 50px; */
-        /* display: flex; */
-        /* flex-direction: row; */
         gap: 20px;
     }
 
     .populaires-cards {
         display: flex;
         flex-direction: row;
-        /* justify-content: space-between; */
         gap: 20px;
     }
 
@@ -472,7 +468,6 @@ i.fa-solid.fa-location-dot {
     }
 
     .activite-cards div{
-        /* width: 10.5rem; */
         height: 270px;
         padding-bottom: 14rem;
     }
@@ -596,6 +591,7 @@ i.fa-solid.fa-location-dot {
 
     .filter-icons{
         width: 100%;
+        flex-wrap: wrap;
     }
 
     .search-bar button{
