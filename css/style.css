@@ -67,20 +67,31 @@ main {
 }
 
 /****** Header ***********/
+header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
+    font-weight: 500;
+    font-size: larger;
+    border: 1px solid transparent;
+    margin-top: -6px;
 }
 
 nav a {
     padding: 2rem;
 }
 
-.sub-nav a:hover {
+nav a:hover {
     border-top: 1px solid #0065FC;
     color: #0065FC;
+    margin-top: -1px;
 }
 
 #logo {
@@ -88,12 +99,6 @@ nav a {
     margin-right: auto;
     padding: 0 2rem;
     height: 19px;
-}
-
-.sub-nav {
-    display: flex;
-    font-weight: 500;
-    font-size: larger;
 }
 
 .headline {
@@ -456,22 +461,22 @@ footer div {
     }
 
     #logo {
-        justify-content: center;
         margin: auto;
         order: -1;
     }
 
-    .sub-nav {
-        flex-basis: 100%;
+    nav {
+        width: 100%;
         order: 2;
+        flex-wrap: nowrap;
     }
 
-    .sub-nav a {
+    nav a {
         flex-basis: 50%;
         text-align: center;
     }
 
-    .sub-nav a:hover {
+    nav a:hover {
         border-top: none;
         border-bottom: 1px solid var(--main-color);
     }
