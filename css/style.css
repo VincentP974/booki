@@ -151,7 +151,6 @@ i.fa-solid.fa-location-dot {
 }
 
 /* filtres */
-
 .filter-list {
     display: flex;
     margin-top: 2rem;
@@ -220,7 +219,6 @@ i.fa-solid.fa-location-dot {
     justify-content: center;
 }
 
-
 /****** Hebergements and Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -244,7 +242,6 @@ i.fa-solid.fa-location-dot {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 2rem;
-
 }
 
 .hebergements-cards .card {
@@ -332,7 +329,6 @@ i.fa-solid.fa-location-dot {
 }
 
 /* Activitées à Marseille */
-
 .activite-cards {
     display: flex;
     justify-content: center;
@@ -377,7 +373,6 @@ i.fa-solid.fa-location-dot {
 }
 
 /* Footer */
-
 footer {
     display: flex;
     background-color: var(--main-bg-color);
