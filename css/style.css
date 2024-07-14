@@ -289,6 +289,10 @@ i.fa-solid.fa-location-dot {
     margin-bottom: 5px;
 }
 
+.hebergements a {
+    font-weight: 500;
+}
+
 
 /****** Populaires ***********/
 .populaires {
