@@ -411,6 +411,10 @@ footer div {
         padding: 0 0rem;
     }
 
+    .search-bar {
+        width: 46%;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
         display: flex;
