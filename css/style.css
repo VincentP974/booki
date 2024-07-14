@@ -80,8 +80,8 @@ nav {
     flex-wrap: wrap;
     font-weight: 500;
     font-size: larger;
-    border: 1px solid transparent;
-    margin-top: -6px;
+    border: 2.5px solid transparent;
+    margin-top: -8px;
 }
 
 nav a {
@@ -89,9 +89,9 @@ nav a {
 }
 
 nav a:hover {
-    border-top: 1px solid #0065FC;
+    border-top: 2.5px solid #0065FC;
     color: #0065FC;
-    margin-top: -1px;
+    margin-top: -2.5px;
 }
 
 #logo {
