@@ -79,13 +79,14 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     font-weight: 500;
-    font-size: larger;
+    font-size: medium;
     border: 2.5px solid transparent;
     margin-top: -8px;
 }
 
 nav a {
     padding: 2rem;
+    padding-top: 19px;
 }
 
 nav a:hover {
