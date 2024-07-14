@@ -117,7 +117,7 @@ nav a:hover {
     font-size: 1.2rem;
     border: 1px solid #F2F2F2;
     border-radius: 1rem;
-    width: 48%;
+    width: 51%;
 }
 
 .search-bar>* {
@@ -537,10 +537,6 @@ footer div {
         height: 66%;
     }
 
-    #activite-title {
-        padding-left: 55px;
-    }
-
     .activite-cards {
         flex-direction: column;
         padding: 0;
@@ -589,5 +585,6 @@ footer div {
 
     footer div {
         padding-bottom: 1rem;
+        width: 100%;
     }
 }
