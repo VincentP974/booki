@@ -111,7 +111,7 @@ nav a:hover {
 }
 
 /* barre de recherche */
-.search-bar {
+.section-top form {
     display: flex;
     align-items: center;
     font-size: 1.2rem;
@@ -120,9 +120,29 @@ nav a:hover {
     width: 51%;
 }
 
-.search-bar>* {
+.section-top form>* {
     padding: 1rem 1.5rem;
     font-size: 1.2rem;
+}
+
+.section-top form input {
+    flex-basis: 100%;
+    border: none;
+    overflow: auto;
+    font-weight: 600;
+}
+
+.section-top form input::placeholder {
+    color: #000000;
+}
+
+.section-top form button {
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    border-radius: 0 1rem 1rem 0;
+    border: none;
+    cursor: pointer;
 }
 
 i.fa-solid.fa-location-dot {
@@ -130,26 +150,6 @@ i.fa-solid.fa-location-dot {
     background-color: #F2F2F2;
     border-radius: 1rem 0 0 1rem;
     font-size: larger;
-}
-
-.search-bar input {
-    flex-basis: 100%;
-    border: none;
-    overflow: auto;
-    font-weight: 600;
-}
-
-.search-bar input::placeholder {
-    color: #000000;
-}
-
-.search-bar button {
-    background-color: var(--main-color);
-    color: white;
-    font-weight: bold;
-    border-radius: 0 1rem 1rem 0;
-    border: none;
-    cursor: pointer;
 }
 
 .fa-magnifying-glass {
@@ -411,7 +411,7 @@ footer div {
         padding: 0 0rem;
     }
 
-    .search-bar {
+    .section-top form {
         width: 46%;
     }
 
@@ -500,15 +500,15 @@ footer div {
         font-size: 24px;
     }
 
-    .search-bar {
+    .section-top form {
         width: 95%;
     }
 
-    .search-bar .search-text {
+    .section-top form .search-text {
         display: none;
     }
 
-    .search-bar button {
+    .section-top form button {
         border-radius: 1rem;
         width: 55px;
         height: 55px;
