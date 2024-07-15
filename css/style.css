@@ -493,7 +493,7 @@ footer div {
     nav a:hover {
         border-top: none;
         border-bottom: 2.5px solid var(--main-color);
-        margin-bottom: -5px;
+        margin-bottom: -4px;
     }
 
     .headline h1 {
