@@ -121,7 +121,8 @@ nav a:hover {
     font-size: 1.2rem;
     border: 1px solid #F2F2F2;
     border-radius: 1rem;
-    width: 51%;
+    width: 36%;
+    margin-top: 25px;
 }
 
 .section-top form>* {
@@ -163,6 +164,8 @@ i.fa-solid.fa-location-dot {
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
     padding: 1rem;
+    width: 15%;
+    padding-left: 21px;
 }
 
 .fa-magnifying-glass {
