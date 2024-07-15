@@ -131,7 +131,7 @@ nav a:hover {
 }
 
 .section-top form input {
-    flex-basis: 100%;
+    flex-basis: 74%;
     border: none;
     overflow: auto;
     font-weight: 600;
