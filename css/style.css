@@ -215,15 +215,19 @@ i.fa-solid.fa-location-dot {
     padding-top: 20px;
 }
 
-.results-message .fas {
+.results-message .fa-info {
     color: #0065FC;
     width: 2rem;
     height: 2rem;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
+    margin-right: 11px;
+}
+
+.fa-info::before {
+    margin-left: 13px;
+    margin-top: 6px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /****** Hebergements and Populaires ***********/
