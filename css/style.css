@@ -111,6 +111,10 @@ nav a:hover {
 }
 
 /* barre de recherche */
+.section-top {
+    padding-bottom: 15px;
+}
+
 .section-top form {
     display: flex;
     align-items: center;
@@ -163,6 +167,7 @@ i.fa-solid.fa-location-dot {
     margin-top: 2rem;
     flex-wrap: wrap;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .filter-title {
@@ -207,15 +212,7 @@ i.fa-solid.fa-location-dot {
     padding: 1rem;
 }
 
-.results-message {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding-bottom: 35px;
-    padding-top: 20px;
-}
-
-.results-message .fa-info {
+p .fa-info {
     color: #0065FC;
     width: 2rem;
     height: 2rem;
